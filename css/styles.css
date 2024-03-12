@@ -642,10 +642,14 @@ progress {
   height: 80%;
   }
 }
+
 @media (max-width: 576px) {
   .aboutImage{
   width: 50% ;
   height: 80%;
+  }
+  header.masthead {
+    padding-top: 0; !important
   }
 }
 @media (min-width: 768px) {
@@ -11022,7 +11026,7 @@ p {
 }
 
 header.masthead {
-  padding-top: 10.5rem;
+  /* padding-top: 10.5rem; */
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
